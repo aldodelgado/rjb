@@ -5,7 +5,7 @@
 require 'rbconfig'
 
 begin
-  require 'rubinius/ffi'
+  require 'ffi'
   module DL
     extend FFI::Library
     class FakeDL
